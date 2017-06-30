@@ -1,0 +1,169 @@
+
+
+.last-form-group{
+	position: absolute;
+  	bottom: 10px;
+  	top: 225px;
+  	left: 0;
+  	right: 0;
+  	height:auto;
+}
+
+
+.last-control-div{
+	position: absolute;
+  	bottom: 100px;
+  	top: 42px;
+  	left:14px;
+  	right:14px;   
+  	min-height:100px;
+}
+
+
+.signInDiv{
+	display: inline-block;
+	float: right;
+	font-size: 0.8rem;
+  	color: #696969;
+}
+
+.signInA{
+	display: block;
+	width:90%;
+  	text-align: right;
+  	margin-right: 2rem;
+  	font-size: 0.8rem;
+  	color:#4a90e2;
+  	margin-bottom: 0.5rem;
+}
+
+
+.signDivB{
+	  position: relative;
+  left: 50%;
+  width: 8.75rem;
+  height: 1.5rem;
+}
+
+.signInB{
+	position: absolute;
+  width: 8.75rem;
+  left: -50%;
+  border: 1px solid #4a90e2;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  text-align: center;
+  color: #4a90e2;
+}
+
+.login-line-div{
+	  height: 1rem;
+  position: relative;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+    margin-bottom: 0.5rem;
+}
+.line-line-div{
+	border-top: 1px solid #d8d8d8;
+  position: absolute;
+  top: 0.5rem;
+  width: 100%;
+}
+
+.login-center-div{
+	position: relative;
+  left: 50%;
+  width: 5rem;
+  height: 1rem;
+  line-height: 1rem;
+}
+.login-center-span{
+	  position: relative;
+  left: -50%;
+  width: 5rem;
+  text-align: center;
+  font-size: 0.625rem;
+  height: 1rem;
+  line-height: 1rem;
+  background-color: #fff;
+  color:#d8d8d8;
+}
+
+
+.submint-div{
+	  position: relative;
+  margin: 1rem;
+  text-align: center;
+  background-color: #00a29b;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  color: #fff;
+}
+
+
+.center-block{
+	bottom:2rem;
+}
+
+.signInA{
+	display: block;
+	width:90%;
+  	text-align: right;
+  	margin-right: 2rem;
+  	font-size: 0.8rem;
+  	color:#4a90e2;
+  	  margin-bottom: 0.5rem;
+}
+
+.click-eye{
+	right: 0.2rem;
+    position: absolute;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    width: 1rem;
+}
+.strength-indicator{
+	height: 5px;
+    overflow: hidden;
+    background: rgba(255,255,255,.5);
+}
+.strength{
+	height: 5px;
+    min-width: 0;
+    width:0;
+    background: #d3a435;
+    -webkit-transition: width .3s ease;
+    -khtml-transition: width .3s ease;
+    -moz-transition: width .3s ease;
+    -ms-transition: width .3s ease;
+    -o-transition: width .3s ease;
+    transition: width .3s ease;
+}
+.center-line-div2 .click-eye{
+	right: 0.2rem;
+    position: absolute;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    width: 1rem;
+    top:0.6rem;
+    right: -40%;
+}
+
+.center-line-div1{
+	font-size:.8rem;
+	width: 25%;
+    text-align: right;
+    float: left;
+}
+.center-line-div2{
+	float: right;
+    width: 65%;
+    position: absolute;
+}
+.input-control{
+	width:80%
+}

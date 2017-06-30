@@ -1,0 +1,56 @@
+{
+    "form": {
+        "name": "3fuyu测试子表单",
+        "title": "3fuyu测试关联",
+        "describe": "",
+        "thankPageMessage": "感谢您的填写！",
+        "showThankPage": true,
+        "id": "0cb5e6ba-2254-4ed8-b128-9d61b88c2e35",
+        "processAuthinfo": {},
+        "ispublishedrefer": "1",
+        "pk_botype": null,
+        "processDefId": null
+    },
+    "pk_bo": "0cb5e6ba-2254-4ed8-b128-9d61b88c2e35",
+    "formLayout": {
+        "layoutType": "pc",
+        "layoutDetail": {
+            "componentKey": "ColumnPanel",
+            "layoutDetail": [
+                {
+                    "componentKey": "Reference",
+                    "title": "人员信息",
+                    "fieldId": "20170227163437oyo3eLDFru",
+                    "inLeft": false,
+                    "required": false,
+                    "crux": false,
+                    "size": "large",
+                    "borderColor": "",
+                    "tips": "请输入文本内容",
+                    "pk_bo": "0cb5e6ba-2254-4ed8-b128-9d61b88c2e35",
+                    "isMutiSelect": false,
+                    "contMeta": "28d00735-c922-4733-9ee2-b044a718e0e1",
+                    "contMetaName": "人员信息",
+                    "contMetaType": "user",
+                    "contMetaOption": {
+                        "fieldIds": [
+                            {
+                                "fieldId": "20170220143242vC9bMFSk1c",
+                                "name": "人员编码"
+                            },
+                            {
+                                "fieldId": "20170220143320GXUJl2pE86",
+                                "name": "人员名称"
+                            }
+                        ]
+                    },
+                    "hasLinkage": false,
+                    "linkageComponent": "",
+                    "linkageField": "",
+                    "columncode": "ryxx_1488263770346210"
+                }
+            ],
+            "size": "1"
+        }
+    }
+}

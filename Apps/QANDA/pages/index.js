@@ -1,0 +1,117 @@
+define(["../logic/index","../components/commonCtl",'utils','../parts/listview'],function(pluginClass,c,utils,listview){
+    var Re =  {
+        pluginClass:pluginClass,
+        style:{
+            backgroundColor:c.backColor
+        },
+        root:["page_content","submitbtn"],
+        components:{
+            submitbtn:{
+              type:"icon",
+              text:"提问",
+              textStyle:{
+                fontSize:16,
+                marginLeft:3,
+                color:c.mainColor
+              },
+              font:"icomoon_e901",
+              iconStyle:{
+                fontSize:18,
+                color:c.mainColor
+              },
+              style:{
+                position:"absolute",
+                bottom:0,
+                borderTop:"1px solid #DCDCDC",
+                zIndex:10,
+                backgroundColor:"#fff",
+                left:0,
+                right:0,
+                height:50
+              }
+            },
+            page_segment:{
+              type:"segment_android",
+              viewpager:"page_content",
+              items:[{title:"最新",key:"new_wrapper"},{title:"推荐",key:"recommend_wrapper"},{title:"热问榜",key:"hot_wrapper"}],
+              root:["segment_android_item"],
+              itemSelectedClassName:"qaa-sgm-selected",
+              indicatorStyle:{
+                backgroundColor:c.mainColor
+              },
+              style:{backgroundColor:"#fff",height:43,borderBottom:"1px solid #EBEFF4"}
+            },
+            segment_android_item:{
+              type:"text",
+              text:"test",
+              text_bind:"title",
+              style:{color:c.labelColor,fontSize:15}
+            },
+            page_content:{
+              type:"view",
+              ref:true,
+              style:{
+                flex:1,
+                marginBottom:50,
+              },
+              root:["new_wrapper"],
+            },
+            recommend_wrapper:{
+              type:"view",
+              style:{
+                flex:1,
+                backgroundColor:"lightblue",
+                paddingBottom:50,
+              },
+              root:["recommend_searchview"]
+            },
+            hot_wrapper:{
+              type:"view",
+              style:{
+                flex:1,
+                backgroundColor:"orange",
+                paddingBottom:50,
+              },
+              root:["hot_searchview"]
+            },
+            list_nodata:{
+              type:"text",
+              style:{
+                margin:"40% auto",
+                textAlign:"center",
+                width:"210",
+                fontSize:15,
+                color:c.seTitleColor
+              },
+              text:"暂时没有用户提问，请点击下方去提问吧"
+            },
+            new_wrapper:{
+              type:"view",
+              style:{
+                flex:1,
+                overflowY:"auto",
+              },
+              root:["searchview","new_listview"]
+            },
+            recommend_searchview:c.createIndexSearchView("recommend_searchinput"),
+            recommend_searchinput:c.searchinput,
+            hot_searchview:c.createIndexSearchView("hot_searchinput"),
+            hot_searchinput:c.searchinput,
+            searchview:c.createIndexSearchView("searchinput"),
+            searchinput:c.searchinput,
+        },
+
+    };
+
+    var ajaxConfig = {
+      url:"/question/listnew",
+      pageSize:20,
+      type:"POST",
+      pageNumKey:"pageNo",
+      data:{
+        pageNo:1,
+        pageSize:20
+      }
+    };
+    return utils.concat(Re,listview.getList(true,ajaxConfig,"list_nodata"),"new_");
+});

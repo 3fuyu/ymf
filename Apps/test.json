@@ -1,0 +1,88 @@
+{
+    "instanceId": "767c07b5-fee3-11e6-bc27-06b538000145",
+    "processId": "process_fb2ffa3e6a:2:63647cc3-fee3-11e6-bc27-06b538000145",
+    "taskId": "769471c4-fee3-11e6-bc27-06b538000145",
+    "executionId": "7687eea1-fee3-11e6-bc27-06b538000145",
+    "assignInfoItems": [
+        {
+            "activityId": "approveUserTask_03238725c90b486d859ad93e4eca87",
+            "activityName": "2流程等于2",
+            "condition": "${BPM_1488359058778 == \"2\"}",
+            "participants": [
+                {
+                    "id": "05b1520f-fdba-11e6-aa00-067a8600043d",
+                    "code": "czp001",
+                    "name": "陈展鹏",
+                    "pic": null,
+                    "type": "USER",
+                    "priority": 50,
+                    "org": null,
+                    "org_name": null,
+                    "selected": true
+                },
+                {
+                    "id": "abd7c327-fdb9-11e6-aa00-067a8600043d",
+                    "code": "zy001",
+                    "name": "张宇",
+                    "pic": null,
+                    "type": "USER",
+                    "priority": 50,
+                    "org": null,
+                    "org_name": null,
+                    "selected": true
+                },
+                {
+                    "id": "cf30af04-fdb9-11e6-aa00-067a8600043d",
+                    "code": "zzl001",
+                    "name": "郑泽林",
+                    "pic": null,
+                    "type": "USER",
+                    "priority": 50,
+                    "org": null,
+                    "org_name": null,
+                    "selected": true
+                }
+            ]
+        },
+        {
+            "activityId": "approveUserTask_dfa0f364bb674895aa85caba8ed6f1",
+            "activityName": "3流程等于2",
+            "condition": "${BPM_1488359058778 == \"2\"}",
+            "participants": [
+                {
+                    "id": "941c5295-fdb9-11e6-aa00-067a8600043d",
+                    "code": "pgz001",
+                    "name": "彭光宗  (前端开发)",
+                    "pic": null,
+                    "type": "USER",
+                    "priority": 50,
+                    "org": null,
+                    "org_name": null,
+                    "selected": true
+                },
+                {
+                    "id": "abd7c327-fdb9-11e6-aa00-067a8600043d",
+                    "code": "zy001",
+                    "name": "张宇",
+                    "pic": null,
+                    "type": "USER",
+                    "priority": 50,
+                    "org": null,
+                    "org_name": null,
+                    "selected": true
+                },
+                {
+                    "id": "cf30af04-fdb9-11e6-aa00-067a8600043d",
+                    "code": "zzl001",
+                    "name": "郑泽林",
+                    "pic": null,
+                    "type": "USER",
+                    "priority": 50,
+                    "org": null,
+                    "org_name": null,
+                    "selected": true
+                }
+            ]
+        }
+    ]
+}

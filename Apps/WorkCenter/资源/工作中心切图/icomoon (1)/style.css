@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?ofp0t4');
+  src:  url('fonts/icomoon.eot?ofp0t4#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ofp0t4') format('truetype'),
+    url('fonts/icomoon.woff?ofp0t4') format('woff'),
+    url('fonts/icomoon.svg?ofp0t4#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icomoon-"], [class*=" icomoon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icomoon-team:before {
+  content: "\e91b";
+}
+.icomoon-xiala-press:before {
+  content: "\e91c";
+}
+.icomoon-all:before {
+  content: "\e900";
+}
+.icomoon-cellect:before {
+  content: "\e901";
+}
+.icomoon-day-left:before {
+  content: "\e902";
+}
+.icomoon-day-right:before {
+  content: "\e903";
+}
+.icomoon-done-no:before {
+  content: "\e904";
+}
+.icomoon-done-press:before {
+  content: "\e906";
+}
+.icomoon-Done:before {
+  content: "\e907";
+}
+.icomoon-edit:before {
+  content: "\e908";
+}
+.icomoon-folder:before {
+  content: "\e909";
+}
+.icomoon-jia:before {
+  content: "\e90a";
+}
+.icomoon-key-press:before {
+  content: "\e90b";
+}
+.icomoon-key:before {
+  content: "\e90c";
+}
+.icomoon-list:before {
+  content: "\e90d";
+}
+.icomoon-more:before {
+  content: "\e90e";
+}
+.icomoon-recycle-empty:before {
+  content: "\e90f";
+}
+.icomoon-recycle:before {
+  content: "\e910";
+}
+.icomoon-renw-empty:before {
+  content: "\e911";
+}
+.icomoon-rili-big-focus:before {
+  content: "\e912";
+}
+.icomoon-rili-big:before {
+  content: "\e913";
+}
+.icomoon-rili-small:before {
+  content: "\e916";
+}
+.icomoon-select:before {
+  content: "\e917";
+}
+.icomoon-today:before {
+  content: "\e918";
+}
+.icomoon-xiala:before {
+  content: "\e919";
+}
+.icomoon-zhou:before {
+  content: "\e91a";
+}
+.icomoon-comment:before {
+  content: "\e905";
+}
+.icomoon-down:before {
+  content: "\e915";
+}
+.icomoon-up:before {
+  content: "\e914";
+}
+

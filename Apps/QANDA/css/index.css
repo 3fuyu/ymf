@@ -1,0 +1,52 @@
+
+
+.qaa_upicon_active{
+  background-color: #F2F2F2 !important;
+}
+.qaa_upicon_selected span{
+  color:#73D51C !important;
+}
+.qaa_picicon_active .yy-icon-code{
+  color:#73D51C !important;
+}
+.qaa_upicon_selected .yy-icon-code:before{
+  content:"\e918" !important;
+}
+.qaa-showmore-btn{
+  color:#73D51C;
+}
+
+
+.qaa-sgm-selected{
+  color:#73D51C !important;
+}
+.qaa-sgm-selected i,.qaa-sgm-selected .yy-icon-text,.qaa-sgm-selected .yy-text{
+  color:#73D51C !important;
+}
+.qaa-submit-btn-disabled{
+  background-color: rgba(115, 213, 28,.6) !important;
+  border:1px solid rgba(115, 213, 28,.1) !important;
+}
+.list-desctext-wrap span{
+  display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+}
+
+.qaa_splitline{
+  border-top:1px solid #eee;
+}
+
+.qaa_splitline:before{
+  position: absolute;
+  content:"";
+  height:1px;
+  background-color: #fff;
+  left:0;
+  width:20px;
+  top:-1px;
+}
+.qaa-nomyque-labelwrapper{
+  border-top: none !important;
+  margin-top: 0px !important;
+}

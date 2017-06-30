@@ -1,0 +1,53 @@
+.dv-dialog-wrap{
+    display: table;
+    width: 100%;
+    background: #fff;
+    font-size: 12px;
+}
+.dv-dialog-wrap>div{
+    display: table-cell;
+    vertical-align: middle;
+
+}
+.dv-dialog-wrap>div:first-child{
+    width:13.866666666666665%;
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+}
+.dayview{
+    background: #fff;
+    color: #999999;
+    width: 100%;
+    overflow-y: scroll;
+    display: -webkit-box;
+    display: flex;
+}
+.first-column{
+    width:13.866666666666665%
+}
+.column ,.row{
+    display: flex;
+    flex: 1;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    position: relative;
+}
+
+.sec-column{
+    flex: 1;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    display: flex;
+    display: -webkit-box;
+}
+.dayview .time-cell{
+    font-size: 12px;
+    text-align: center;
+    height:40px;
+    line-height:40px;
+
+}
+.dayview tbody{
+    width: 100%;
+}

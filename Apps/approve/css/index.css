@@ -1,0 +1,170 @@
+@font-face {
+    font-family: 'ap';
+    src: url('../fonts/ap.eot?4juiro');
+    src: url('../fonts/ap.eot?4juiro#iefix') format('embedded-opentype'), url('../fonts/ap.ttf?4juiro') format('truetype'), url('../fonts/ap.woff?4juiro') format('woff'), url('../fonts/ap.svg?4juiro#wc') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    text-rendering: geometricPrecision;
+}
+
+.pc-zoom {
+    zoom: 0.9;
+}
+
+.feature-item {
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.topview_left:active, .topview_middle:active, .topview_right:active {
+    background-color: #eee;
+}
+
+.form-upper-warp:before {
+    position: absolute;
+    top: 0;
+    left: 14px;
+    right: 0;
+    height: 1px;
+    content: "";
+    background-color: #eee;
+}
+
+input, textarea {
+    font-weight: 300;
+}
+
+.form-row:active {
+    background-color: #eee !important;
+}
+
+.form-row:active textarea {
+    background-color: #eee !important;
+}
+
+.form-repeat .form-row:last-child {
+    margin-bottom: 0 !important;
+}
+
+.from-between-first:before {
+    position: absolute;
+    content: "";
+    border-top: 1px solid #eee;
+    left: 20px;
+    bottom: 0;
+    right: 0;
+}
+
+.app-repeat .yy-repeatitem:before {
+    position: absolute;
+    right: 0;
+    width: 1px;
+    background-color: #eee;
+    top: 0;
+    bottom: 0;
+    content: "";
+}
+
+.app-repeat .yy-repeatitem:active {
+    background-color: #EEEEEE;
+}
+
+.app-repeat .yy-repeatitem.no-result:active {
+    background: none;
+}
+
+.ar-sgm-item-selected-android {
+    color: #37B7FD !important;
+}
+
+.ar-sgm-item-selected-android i, .yy-sgm-item-selected-android .yy-icon-text, .yy-sgm-item-selected-android .yy-text {
+    color: #37B7FD !important;
+}
+
+.line-repeat .yy-repeatitem:first-child .repeat_line {
+    left: 20px !important;
+}
+
+.line-repeat .yy-repeatitem:nth-child(7n+0) .repeat_line {
+    right: 20px !important;
+}
+
+.line-repeat .yy-repeatitem:nth-child(7n+1) .repeat_line {
+    left: 20px !important;
+}
+
+.line-repeat .yy-repeatitem:last-child .repeat_line {
+    right: 20px !important;
+}
+
+.line-repeat .yy-repeatitem:nth-last-child(2) .repeat_line {
+    right: 20px !important;
+}
+
+/* 审批详情 */
+.ApplyLayoutStart_1 {
+
+}
+
+.applyLayout {
+    width: 100%;
+}
+
+.applyLayout .applyLayout_index {
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    background: #F5C464;
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 50%;
+    position: relative;
+    top: -2px;
+    margin-right: 6px;
+}
+
+.applyLayout .applyLayout_content {
+    color: #999;
+}
+
+.applyLayoutMain {
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 13px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-top: 1px solid #eee;
+}
+
+.middle_detail_repeat_item_repeat_title .yy-pretext {
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    background: #F5C464;
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 50%;
+    position: relative;
+    top: -2px;
+    margin-right: 6px;
+}
+
+.flow_right_content_right img {
+    width: 20px;
+}
+.message_middle_left img {
+    width: 100%!important;
+    height: 100%!important;
+}
+.flow_right_content_right .yy-inner-text {
+    margin:15px 0 8px 0;
+}
